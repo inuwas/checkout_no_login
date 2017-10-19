@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Inuwa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/Inuwa/Documents/serious_stuff/HOW_TO/nativescript/checkout_no_login/platforms/android/build/intermediates/pre-dexed/F0/debug/support-annotations-22.2.0_4cae5152edf41d9ad9515c742ba43e492385e5b1.jar" />
+    </item>
+    <item
+        jar="/Users/Inuwa/Documents/serious_stuff/HOW_TO/nativescript/checkout_no_login/platforms/android/libs/nativescript.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="57b3fa4e07f606555cab1d8373106c80acd79f64">
+        <dex dex="/Users/Inuwa/Documents/serious_stuff/HOW_TO/nativescript/checkout_no_login/platforms/android/build/intermediates/pre-dexed/F0/debug/nativescript_be969da47a728f1a06684960a54295aa0b07b3eb.jar" />
+    </item>
+
+</items>

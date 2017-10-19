@@ -1,0 +1,11 @@
+<Page loaded="pageLoaded" shownModally="onShownModally">
+    <StackLayout>
+        <Label text="Name" />
+        <TextField text="{{ name }}" />
+        <Label text="Email" />
+        <TextField text="{{ email }}" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
+        <Label text="Comments" />
+        <TextField text="{{ comment }}" />
+        <Button text="send" tap="sendComments" />
+    </StackLayout>
+</Page>

@@ -1,0 +1,10 @@
+<Page loaded="loaded">
+    <StackLayout orientation="vertical">
+        <Label text="NEWS"/>
+        <ListView items="{{ pageData }}" id="pageData" itemTap="onTap">
+            <ListView.itemTemplate>
+                    <Label text="{{ title.rendered }}" textWrap="true"/>
+            </ListView.itemTemplate>
+        </ListView>
+    </StackLayout>
+</Page>

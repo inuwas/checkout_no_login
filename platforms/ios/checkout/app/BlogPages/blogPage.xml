@@ -1,0 +1,10 @@
+<Page loaded="pageLoaded" navigatingTo="onNavigatingTo">
+    <StackLayout>
+        <Label text="{{ passedData.date}}" textWrap="true" />
+        <Label text="{{ passedData.title.rendered }}" textWrap="true" />
+        <HtmlView html="{{ passedData.content.rendered }}" />
+        <Button text="send" tap="sendComments" />
+        <Label text="VIEW COMMENTS BELOW" />
+        <HtmlView html="" id="commentView"/>
+    </StackLayout>
+</Page>
